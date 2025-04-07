@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Pages.NewsPage;
 import Util.HelperClass;
+import Util.LogManagers;
 
 import java.time.Duration;
 
@@ -23,6 +24,8 @@ public class NewsAction {
 
     public void clicksubscribe() {
         obj1.subscribe.click();
+        LogManagers.logInfo("Clicked Subscribe");
+
     }
 
     public String getstringofnews() {

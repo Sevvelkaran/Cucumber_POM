@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import Pages.HomePage;
+import Util.LogManagers;
 
 public class HomeActions {
 
@@ -16,14 +17,20 @@ public class HomeActions {
 
     public void setUsername(String strUserName) {
         homepage.username.sendKeys(strUserName);
+        LogManagers.logInfo("Entred UserName");
+
     }
 
     public void setPassword(String strPassword) {
         homepage.password.sendKeys(strPassword);
+        LogManagers.logInfo("Entred Password");
+
     }
 
     public void login() {
         homepage.Login.click();
+        LogManagers.logInfo("Clicked Login");
+
     }
 
     public void logindetails() throws IOException {

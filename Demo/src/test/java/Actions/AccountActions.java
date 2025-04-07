@@ -3,6 +3,7 @@ package Actions;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.logging.LogManager;
 
 import org.apache.poi.ss.usermodel.*;
 import org.openqa.selenium.Keys;
@@ -11,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import Pages.AccountPage;
 import Util.Excel;
 import Util.HelperClass;
+import Util.LogManagers;
 
 public class AccountActions {
 
@@ -24,19 +26,26 @@ public class AccountActions {
 
     public void ClickAccount() {
         Account.ACC.click();
+        LogManagers.logInfo("Clicked Account");
     }
 
     public void Radiobtn() {
         Account.Radio.click();
+        LogManagers.logInfo("Clicked Radio Button");
+
     }
     public void FirstName(String strFN) {
         Account.FN.clear();
         Account.FN.sendKeys(strFN);
+        LogManagers.logInfo("Entred FirstName");
+
     }
 
     public void LastName(String strLN) {
         Account.LN.clear();
         Account.LN.sendKeys(strLN);
+        LogManagers.logInfo("Entred LastName");
+
     }
 
     public void Email(String strEmail) {
@@ -46,10 +55,14 @@ public class AccountActions {
 
     public void Saveit() {
         Account.Save.click();
+        LogManagers.logInfo("Clicked Save");
+
     }
 
     public void log() {
         Account.Logout.click();
+        LogManagers.logInfo("Clicked Logout");
+
     }
     public void AccountDetails() throws IOException {
         Excel excelUtil = new Excel();
