@@ -1,0 +1,68 @@
+2025-04-07 16:14:22 [main] INFO  org.apache.logging.log4j.LogManager - Entred UserName
+2025-04-07 16:14:22 [main] INFO  org.apache.logging.log4j.LogManager - Entred Password
+2025-04-07 16:14:27 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login
+2025-04-07 16:14:29 [main] INFO  org.apache.logging.log4j.LogManager - Entred UserName
+2025-04-07 16:14:29 [main] INFO  org.apache.logging.log4j.LogManager - Entred Password
+2025-04-07 16:14:30 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login
+2025-04-07 16:14:30 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Account
+2025-04-07 16:14:31 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-04-07 16:14:31 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-04-07 16:14:32 [main] INFO  org.apache.logging.log4j.LogManager - Entred FirstName
+2025-04-07 16:14:32 [main] INFO  org.apache.logging.log4j.LogManager - Entred LastName
+2025-04-07 16:14:32 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Account
+2025-04-07 16:14:33 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Radio Button
+2025-04-07 16:14:33 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Save
+2025-04-07 16:14:34 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Logout
+2025-04-07 16:14:39 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Subscribe
+2025-04-07 16:14:40 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Subscribe
+2025-04-07 16:47:27 [main] INFO  org.apache.logging.log4j.LogManager - Entred UserName
+2025-04-07 16:47:27 [main] INFO  org.apache.logging.log4j.LogManager - Entred Password
+2025-04-07 16:47:31 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login
+2025-04-07 16:47:34 [main] INFO  org.apache.logging.log4j.LogManager - Entred UserName
+2025-04-07 16:47:34 [main] INFO  org.apache.logging.log4j.LogManager - Entred Password
+2025-04-07 16:47:36 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login
+2025-04-07 16:47:36 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Account
+2025-04-07 16:47:37 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-04-07 16:47:37 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-04-07 16:47:38 [main] INFO  org.apache.logging.log4j.LogManager - Entred FirstName
+2025-04-07 16:47:38 [main] INFO  org.apache.logging.log4j.LogManager - Entred LastName
+2025-04-07 16:47:39 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Account
+2025-04-07 16:47:39 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Radio Button
+2025-04-07 16:47:41 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Save
+2025-04-07 16:47:42 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Logout
+2025-04-07 16:47:47 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Subscribe
+2025-04-07 16:47:48 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Subscribe
+2025-04-07 16:49:17 [main] INFO  org.apache.logging.log4j.LogManager - Entred UserName
+2025-04-07 16:49:18 [main] INFO  org.apache.logging.log4j.LogManager - Entred Password
+2025-04-07 16:49:22 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login
+2025-04-07 16:49:24 [main] INFO  org.apache.logging.log4j.LogManager - Entred UserName
+2025-04-07 16:49:24 [main] INFO  org.apache.logging.log4j.LogManager - Entred Password
+2025-04-07 16:49:25 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login
+2025-04-07 16:49:26 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Account
+2025-04-07 16:49:26 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-04-07 16:49:26 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-04-07 16:49:27 [main] INFO  org.apache.logging.log4j.LogManager - Entred FirstName
+2025-04-07 16:49:27 [main] INFO  org.apache.logging.log4j.LogManager - Entred LastName
+2025-04-07 16:49:27 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Account
+2025-04-07 16:49:28 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Radio Button
+2025-04-07 16:49:28 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Save
+2025-04-07 16:49:29 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Logout
+2025-04-07 16:49:34 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Subscribe
+2025-04-07 16:49:35 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Subscribe
+2025-04-07 16:50:21 [main] INFO  org.apache.logging.log4j.LogManager - Entred UserName
+2025-04-07 16:50:21 [main] INFO  org.apache.logging.log4j.LogManager - Entred Password
+2025-04-07 16:50:24 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login
+2025-04-07 16:50:25 [main] INFO  org.apache.logging.log4j.LogManager - Entred UserName
+2025-04-07 16:50:25 [main] INFO  org.apache.logging.log4j.LogManager - Entred Password
+2025-04-07 16:50:26 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login
+2025-04-07 16:50:27 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Account
+2025-04-07 16:50:27 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-04-07 16:50:27 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-04-07 16:50:28 [main] INFO  org.apache.logging.log4j.LogManager - Entred FirstName
+2025-04-07 16:50:28 [main] INFO  org.apache.logging.log4j.LogManager - Entred LastName
+2025-04-07 16:50:28 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Account
+2025-04-07 16:50:28 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Radio Button
+2025-04-07 16:50:29 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Save
+2025-04-07 16:50:30 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Logout
+2025-04-07 16:50:35 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Subscribe
+2025-04-07 16:50:36 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Subscribe

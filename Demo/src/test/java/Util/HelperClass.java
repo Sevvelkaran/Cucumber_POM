@@ -39,11 +39,11 @@ public class HelperClass {
         }
     }
 
-//    public static void teardown() {
-//        if (driver != null) {
-//            //driver.quit();  // ✅ Avoid using driver.close()
-//            driver = null;
-//        }
-//        helperClassInstance = null;
-//    }
+    public static void teardown() {
+        if (driver != null) {
+            driver.quit();  // ✅ Avoid using driver.close()
+            driver = null;
+        }
+        helperClassInstance = null;
+    }
 }
