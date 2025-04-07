@@ -11,9 +11,9 @@ public class Hooks {
 	@BeforeMethod
 	public static void setUp() {
 		HelperClass.setUpDriver();
-	}
-	@AfterMethod
-	public static void teardown(Scenario scenario) {
-		HelperClass.teardown();
-	}
+}
+//	@AfterMethod
+//	public static void teardown(Scenario scenario) {
+//		HelperClass.teardown();
+//	}
 }

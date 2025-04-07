@@ -13,10 +13,11 @@ import io.cucumber.testng.CucumberOptions;
     },
     features = {
         "src/test/resources/com/feature/DemoWeb.feature",
-        "src/test/resources/com/feature/Navigation.feature",
-        "src/test/resources/com/feature/Register.feature"
+        "src/test/resources/com/feature/Navigation.feature"
     },
-    glue = "StepDef"
+    glue = "StepDef",
+    monochrome = false,
+    dryRun = false
 )
 public class Runner extends AbstractTestNGCucumberTests {
 }

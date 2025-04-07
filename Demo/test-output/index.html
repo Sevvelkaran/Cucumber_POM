@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,36 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 4 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Registering as New User&quot;, &quot;Title of your feature&quot;)">runScenario("Registering as New User", "Title of your feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Login&quot;, &quot;DemoWorkShop&quot;)">runScenario("Login", "DemoWorkShop")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to MyAccounts&quot;, &quot;Title of your feature&quot;)">runScenario("Navigate to MyAccounts", "Title of your feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Registering as New User&quot;, &quot;Title of your feature&quot;)">runScenario("Registering as New User", "Title of your feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -132,7 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Login&quot;, &quot;DemoWorkShop&quot;)">runScenario("Login", "DemoWorkShop")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to MyAccounts&quot;, &quot;Title of your feature&quot;)">runScenario("Navigate to MyAccounts", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Valid Login&quot;, &quot;DemoWebShop&quot;)">runScenario("Valid Login", "DemoWebShop")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -147,124 +123,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Runner.Runner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Registering as New User&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("Registering as New User", "Title of your feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Registering as New User","Title of your feature")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: BrowsingContext does no longer exist
-Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ec8a6050-f35b-4a94-9da4-f17d72ee9443, findElement {using=xpath, value=//input[@name=&quot;Email&quot;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 63063, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: ec8a6050-f35b-4a94-9da4-f17d72ee9443
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
-	at Actions.HomeActions.setUsername(HomeActions.java:24)
-	at Actions.HomeActions.logindetails(HomeActions.java:52)
-	at StepDef.DemoWebStep.the_user_click_on_the_login_option_and_enters_username_and_password(DemoWebStep.java:28)
-	at ✽.The User click on the Login option and enters Username and Password(file:///Users/sevvelkaranpalanivetrivel/Desktop/Seleniumjava/Demo/src/test/resources/com/feature/Register.feature:21)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login&quot;, &quot;DemoWorkShop&quot;)">
-                  </a> <!-- runScenario("Login", "DemoWorkShop") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login","DemoWorkShop")</span>
-                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
-	at StepDef.DemoWebStep.the_user_click_on_the_login_option_and_enters_username_as_asdfg_and_password_as_qweqwe(DemoWebStep.java:39)
-	at ✽.The User click on the Login option and enters Username as asdfg and Password as qweqwe(file:///Users/sevvelkaranpalanivetrivel/Desktop/Seleniumjava/Demo/src/test/resources/com/feature/DemoWeb.feature:35)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Navigate to MyAccounts&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("Navigate to MyAccounts", "Title of your feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Navigate to MyAccounts","Title of your feature")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&quot;ico-logout&quot;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [39c25710-3edd-4dec-b190-106b7eb735a4, findElement {using=xpath, value=//a[@class=&quot;ico-logout&quot;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 63013, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 39c25710-3edd-4dec-b190-106b7eb735a4
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
-	at Actions.AccountActions.log(AccountActions.java:43)
-	at StepDef.DemoWebStep.click_on_logout(DemoWebStep.java:59)
-	at ✽.Click on logout(file:///Users/sevvelkaranpalanivetrivel/Desktop/Seleniumjava/Demo/src/test/resources/com/feature/Navigation.feature:30)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Registering as New User&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("Registering as New User", "Title of your feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Registering as New User","Title of your feature")</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])&quot; because &quot;this.objPage.FN1&quot; is null
-	at StepDef.DemoWebStep.the_user_click_on_resgister(DemoWebStep.java:68)
-	at ✽.the user click on Resgister(file:///Users/sevvelkaranpalanivetrivel/Desktop/Seleniumjava/Demo/src/test/resources/com/feature/Register.feature:10)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -273,10 +131,20 @@ Session ID: 39c25710-3edd-4dec-b190-106b7eb735a4
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login&quot;, &quot;DemoWorkShop&quot;)">
-                  </a> <!-- runScenario("Login", "DemoWorkShop") -->
+                  <a name="runScenario(&quot;Navigate to MyAccounts&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("Navigate to MyAccounts", "Title of your feature") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login","DemoWorkShop")</span>
+                  <span class="parameters">("Navigate to MyAccounts","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Valid Login&quot;, &quot;DemoWebShop&quot;)">
+                  </a> <!-- runScenario("Valid Login", "DemoWebShop") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Valid Login","DemoWebShop")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -286,7 +154,7 @@ Session ID: 39c25710-3edd-4dec-b190-106b7eb735a4
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/testng-eclipse-453835246/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/testng-eclipse--1505954612/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -343,32 +211,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'Runner.Runner')
-data.setCell(0, 3, 48498);
+data.setCell(0, 3, 14206);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'Runner.Runner')
-data.setCell(1, 3, 28281);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'Runner.Runner')
-data.setCell(2, 3, 25252);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'runScenario')
-data.setCell(3, 2, 'Runner.Runner')
-data.setCell(3, 3, 11118);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'runScenario')
-data.setCell(4, 2, 'Runner.Runner')
-data.setCell(4, 3, 9291);
+data.setCell(1, 3, 8542);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -396,40 +252,20 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Runner.Runner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@6ace919c)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@1a717d79)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Login", "DemoWorkShop")</span>
-                <span class="method-start">2963 ms</span>
+                <span class="method-name">runScenario("Valid Login", "DemoWebShop")</span>
+                <span class="method-start">1832 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login", "DemoWorkShop")</span>
-                <span class="method-start">28225 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Navigate to MyAccounts", "Title of your feature")</span>
-                <span class="method-start">39350 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Registering as New User", "Title of your feature")</span>
-                <span class="method-start">87851 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Registering as New User", "Title of your feature")</span>
-                <span class="method-start">97147 ms</span>
+                <span class="method-start">16045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">125435 ms</span>
+                <span class="method-start">24594 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

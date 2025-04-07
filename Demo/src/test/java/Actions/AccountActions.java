@@ -43,7 +43,7 @@ public class AccountActions {
 		Account.Logout.click();
 	}
 	public void AccountDetails() throws IOException {
-		File file = new File("/Users/sevvelkaranpalanivetrivel/Desktop/Seleniumjava/Demo/src/test/resources/testdata.properties");
+		File file = new File("/Users/sevvelkaranpalanivetrivel/git/Demo/Demo/src/test/resources/testdata.properties");
 		FileInputStream fileInput=null;
 		try {
 			fileInput=new FileInputStream(file);

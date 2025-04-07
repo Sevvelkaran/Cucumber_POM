@@ -27,4 +27,3 @@ Feature: Title of your feature
   When The User click on the Login option and enters Username and Password
 	When The user clicks on MyAccounts
 	When it opens the Customer enters the details and saves it 
-	Then Click on logout 

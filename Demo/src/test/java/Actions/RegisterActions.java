@@ -14,10 +14,10 @@ import Util.HelperClass;
 
 public class RegisterActions {
 
-	RegisterPage register;
+	RegisterPage register = null;
 	String strFN1, strLN1, strEmail1, strPass, strConfirmPass;
 	
-	public void RegisterActions() {
+	public RegisterActions() {
 		this.register = new RegisterPage();
 		PageFactory.initElements(HelperClass.getDriver(), register);
 	}
@@ -43,7 +43,7 @@ public class RegisterActions {
 		register.Registerbtn.click();
 	}
 	public void RegisterDetails() throws IOException {
-		File file = new File("/Users/sevvelkaranpalanivetrivel/Desktop/Seleniumjava/Demo/src/test/resources/testdata.properties");
+		File file = new File("/Users/sevvelkaranpalanivetrivel/git/Demo/Demo/src/test/resources/testdata.properties");
 		FileInputStream fileInput=null;
 		try {
 			fileInput=new FileInputStream(file);

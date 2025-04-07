@@ -2,18 +2,21 @@ package Pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import Util.HelperClass;
 
 public class HomePage {
 
-	
-	@FindBy(xpath="//input[@name=\"Email\"]")
-	public static WebElement Username;
-	
-	@FindBy(xpath="//input[@name=\"Password\"]")
-	public static WebElement Password;
-	
-	@FindBy(xpath="//input[@class=\"button-1 login-button\"]")
-	public WebElement Login;
-	
-	
+    @FindBy(id = "Email")
+    public WebElement username;
+
+    @FindBy(id = "Password")
+    public WebElement password;
+
+    @FindBy(xpath = "//input[@value='Log in']")
+    public WebElement Login;
+
+    public HomePage() {
+        PageFactory.initElements(HelperClass.getDriver(), this);
+    }
 }
