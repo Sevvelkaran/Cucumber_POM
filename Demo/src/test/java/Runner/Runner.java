@@ -13,7 +13,8 @@ import io.cucumber.testng.CucumberOptions;
     },
     features = {
         "src/test/resources/com/feature/DemoWeb.feature",
-        "src/test/resources/com/feature/Navigation.feature"
+        "src/test/resources/com/feature/Navigation.feature",
+        "src/test/resources/com/feature/Newsletter.feature"
     },
     glue = "StepDef",
     monochrome = false,
