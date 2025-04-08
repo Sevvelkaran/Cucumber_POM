@@ -17,8 +17,8 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: MyAccounts
-  I want to Access MyAccounts and Change the Details in them
+Feature: Title of your feature
+  I want to use this template for my feature file
 
     
 	@Navigation
