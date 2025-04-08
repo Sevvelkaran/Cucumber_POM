@@ -16,13 +16,19 @@ public class HelperClass {
   
 
         driver = new FirefoxDriver();
+        LogManagers.logInfo("FireFox Opened");
+
         wait = new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
         driver.manage().window().maximize();
+        LogManagers.logInfo("Window have Been Maximised");
+
     }
 
     public static void openPage(String url) {
         driver.get(url);
+        LogManagers.logInfo("Got the URL");
+
     }
 
     public static WebDriver getDriver() {
@@ -31,7 +37,7 @@ public class HelperClass {
 
     public static void setUpDriver() {
         if (helperClassInstance == null) {
-            synchronized (HelperClass.class) {  // ✅ Synchronized for thread safety
+            synchronized (HelperClass.class) {  
                 if (helperClassInstance == null) {
                     helperClassInstance = new HelperClass();
                 }
@@ -41,7 +47,7 @@ public class HelperClass {
 
     public static void teardown() {
         if (driver != null) {
-            driver.quit();  // ✅ Avoid using driver.close()
+            driver.quit(); 
             driver = null;
         }
         helperClassInstance = null;

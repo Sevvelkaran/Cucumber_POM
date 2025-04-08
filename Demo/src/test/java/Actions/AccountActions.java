@@ -67,6 +67,7 @@ public class AccountActions {
     public void AccountDetails() throws IOException {
         Excel excelUtil = new Excel();
         String[][] data = excelUtil.getExcelData("src/test/resources/TestData.xlsx", "Sheet1");
+        LogManagers.logInfo("Accessed The Excel");
 
         
         strFN = data[1][0]; 
